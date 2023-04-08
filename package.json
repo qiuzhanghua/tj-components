@@ -1,0 +1,27 @@
+{
+  "name": "tj-components",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.24",
+    "@unocss/core": "^0.50.7",
+    "@unocss/preset-attributify": "^0.50.7",
+    "@unocss/preset-icons": "^0.50.7",
+    "@unocss/preset-uno": "^0.50.7",
+    "@unocss/vite": "^0.50.7",
+    "typescript": "^5.0.4",
+    "unocss": "^0.50.7",
+    "vite": "^4.2.1",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "solid-element": "^1.7.0",
+    "solid-js": "^1.7.3"
+  }
+}
