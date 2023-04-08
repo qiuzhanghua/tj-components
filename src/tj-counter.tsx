@@ -1,17 +1,21 @@
 import styles from "./tj-counter.css?inline";
-import {Component} from "solid-js";
+import {Component, createSignal} from "solid-js";
 import {customElement} from "solid-element";
 
 interface Props {
     name: string;
 }
 const TjCounter: Component<Props> = (props) => {
+    const [count, setCount] = createSignal(0)
     return <>
         <style>
             @unocss-placeholder
             {styles}
         </style>
-        <p class="text-red-500" style="color:rgba(59,130,246">TJ Counter by {props.name}</p>
+        <button
+            className="bg-blue-400 hover:bg-blue-500 text-sm text-white font-mono font-light py-2 px-4 rounded border-2 border-blue-200 dark:bg-blue-500 dark:hover:bg-blue-600"
+            onClick={() => setCount(count => count + 1)}
+        >TJ Counter {count} by {props.name}</button>
         {/*...*/}
     </>;
 }
