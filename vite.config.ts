@@ -5,7 +5,8 @@ import UnocssPlugin from '@unocss/vite';
 export default defineConfig({
     plugins: [
         solidPlugin(),
-        UnocssPlugin({}),
+        UnocssPlugin({mode: "shadow-dom"}),
+        // https://unocss.dev/integrations/vite#shadow-dom
     ],
     server: {
         port: 3000,
