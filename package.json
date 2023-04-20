@@ -9,15 +9,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.24",
-    "@unocss/core": "^0.51.4",
-    "@unocss/preset-attributify": "^0.51.4",
-    "@unocss/preset-icons": "^0.51.4",
-    "@unocss/preset-uno": "^0.51.4",
-    "@unocss/vite": "^0.51.4",
+    "@iconify-json/logos": "^1.1.25",
+    "@unocss/core": "^0.51.5",
+    "@unocss/preset-attributify": "^0.51.5",
+    "@unocss/preset-icons": "^0.51.5",
+    "@unocss/preset-uno": "^0.51.5",
+    "@unocss/vite": "^0.51.5",
     "typescript": "^5.0.4",
-    "unocss": "^0.51.4",
-    "vite": "^4.2.1",
+    "unocss": "^0.51.5",
+    "vite": "^4.2.2",
     "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
