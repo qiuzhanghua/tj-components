@@ -17,10 +17,9 @@ const TjCounter: Component<Props> = (props) => {
             </style>
             <button
                 ref={btn}
-                class="bg-blue-400 hover:bg-blue-500 text-sm text-white font-mono font-light py-2 px-4 rounded border-2 border-blue-200 dark:bg-blue-500 dark:hover:bg-blue-600"
+                className="bg-blue-400 hover:bg-blue-500 text-sm text-white font-mono font-light py-2 px-4 rounded border-2 border-blue-200 dark:bg-blue-500 dark:hover:bg-blue-600"
                 onClick={() => setCount(count => count + 1)}
             >TJ Counter {count()} by {props.name}</button>
-            {/*...*/}
         </Portal>
     );
 }

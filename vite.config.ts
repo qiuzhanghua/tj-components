@@ -19,6 +19,13 @@ export default defineConfig({
             fileName: (format) => `tj-counter.${format}.js`
         },
         rollupOptions: {
+            output: {
+                globals: {
+                    'solid-js': 'Solid',
+                    'solid-js/web': 'Solid',
+                    'unocss': 'Unocss',
+                }
+            },
             external: ['solid-js', 'solid-js/web', 'unocss'],
         }
     },
