@@ -5,7 +5,7 @@ import UnocssPlugin from '@unocss/vite';
 export default defineConfig({
     plugins: [
         solidPlugin(),
-        UnocssPlugin(),
+        UnocssPlugin({mode: 'shadow-dom'}),
         // https://unocss.dev/integrations/vite#shadow-dom
     ],
     server: {
@@ -17,6 +17,9 @@ export default defineConfig({
             entry: 'src/index.ts',
             name: 'tj-counter',
             fileName: (format) => `tj-counter.${format}.js`
+        },
+        rollupOptions: {
+            external: ['solid-js', 'solid-js/web', 'unocss'],
         }
     },
 });
