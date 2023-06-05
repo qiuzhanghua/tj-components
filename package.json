@@ -13,13 +13,13 @@
   "devDependencies": {
     "@iconify-json/logos": "^1.1.31",
     "@types/node": "^20.2.5",
-    "@typescript-eslint/eslint-plugin": "^5.59.7",
-    "@unocss/core": "^0.52.4",
-    "@unocss/preset-attributify": "^0.52.4",
-    "@unocss/preset-icons": "^0.52.4",
-    "@unocss/preset-uno": "^0.52.4",
-    "@unocss/vite": "^0.52.4",
-    "eslint": "^8.41.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@unocss/core": "^0.53.0",
+    "@unocss/preset-attributify": "^0.52.7",
+    "@unocss/preset-icons": "^0.52.7",
+    "@unocss/preset-uno": "^0.52.7",
+    "@unocss/vite": "^0.52.7",
+    "eslint": "^8.42.0",
     "eslint-config-standard-with-typescript": "^34.0.1",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^16.0.0",
@@ -27,13 +27,13 @@
     "eslint-plugin-solid": "^0.12.1",
     "prettier": "^2.8.8",
     "prettier-eslint-cli": "^7.1.0",
-    "typescript": "^5.0.4",
-    "unocss": "^0.52.4",
+    "typescript": "^5.1.3",
+    "unocss": "^0.52.7",
     "vite": "^4.3.9",
     "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
-    "solid-element": "^1.7.0",
-    "solid-js": "^1.7.5"
+    "solid-element": "^1.7.1",
+    "solid-js": "^1.7.6"
   }
 }
